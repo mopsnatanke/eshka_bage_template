@@ -16,8 +16,10 @@ function App() {
           </div>
           <h2 className="content__title">Все пиццы</h2>
           <div className="content__items">
-            <ProductBlock title='Мексиканская' price='500' />
-            <ProductBlock title='Чизбургер' price='300'/>
+            <ProductBlock title='птиц' price='500' source='img/bird1.jpg' />
+            <ProductBlock title='дог' price='300' source='img/dogs.jpg'/>
+            <ProductBlock title='сергульки' price='300' source='img/earrings.jpg'/>
+            <ProductBlock title='котяч' price='300' source='img/cats.jpg'/>
             
           </div>
         </div>
