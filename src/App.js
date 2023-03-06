@@ -5,11 +5,9 @@ import Categories from './components/Categories';
 import Sort from './components/Sort';
 import ProductBlock from './components/ProductBlock';
 
-import products from '../src/assets/products.json'
+import products from '../src/assets/products.json';
 
-
-
-console.log(products)
+console.log(products);
 
 function App() {
   return (
@@ -23,14 +21,15 @@ function App() {
           </div>
           <h2 className="content__title">Все товары</h2>
           <div className="content__items">
-            {
-            products.map(obj => <ProductBlock title={obj.title} price={obj.price} image={obj.imageSrc} /> )
-            }
-            {/* <ProductBlock title='птиц' price='500' source={bird} />
-            <ProductBlock title='дог' price='300' source={dogs}/>
-            <ProductBlock title='сергульки' price='300' source={earrings}/>
-            <ProductBlock title='котяч' price='300' source={cats}/>
-             */}
+            {products.map((obj) => (
+              <ProductBlock 
+                title={obj.title} 
+                price={obj.price} 
+                image={obj.imageSrc}
+                sizes={obj.sizes}
+                types={obj.types} />
+            ))}
+            
           </div>
         </div>
       </div>

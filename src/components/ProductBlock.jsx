@@ -1,32 +1,34 @@
 import React from 'react';
-function ProductBlock({ title, price, image }) {
-  const [productCount, setProductCount] = React.useState(0);
-  const onClickCountAdd = () => {
-    setProductCount(productCount + 1);
-  };
+function ProductBlock({ title, price, image, sizes, types }) {
+  const typeNames = ['ручная роспись', 'фотопечать', 'льняное масло'];
+
+  const [activeSize, setActiveSize] = React.useState(0);
+  const [activeType, setActiveType] = React.useState(0);
+
   return (
     <div className="pizza-block">
-      <img
-        className = "pizza-block__image"
-        src = {image}
-        
-        alt="Product"
-      />
+      <img className="pizza-block__image" src={image} alt="Product" />
       <h4 className="pizza-block__title">{title}</h4>
       <div className="pizza-block__selector">
         <ul>
-          <li className="active">ручная окраска</li>
-          <li>фотопечать</li>
+          {types.map((val, i) => (
+            <li 
+              onClick={() => setActiveType(i)} 
+              className={activeType === i ? 'active' : ''}>{typeNames[i]}
+            </li>
+          ))}
         </ul>
         <ul>
-          <li className="active">26 мм</li>
-          <li>30 мм</li>
-          <li>40 мм</li>
+          {sizes.map((val, i) => (
+            <li
+              onClick={() => setActiveSize(i)} 
+              className={activeSize === i ? 'active' : ''}>{val} мм</li>
+          ))}
         </ul>
       </div>
       <div className="pizza-block__bottom">
         <div className="pizza-block__price">от {price} ₽</div>
-        <button onClick={onClickCountAdd} className="button button--outline button--add">
+        <button className="button button--outline button--add">
           <svg
             width="12"
             height="12"
@@ -39,7 +41,7 @@ function ProductBlock({ title, price, image }) {
             />
           </svg>
           <span>Добавить</span>
-          <i>{productCount}</i>
+          <i>0</i>
         </button>
       </div>
     </div>
