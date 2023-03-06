@@ -1,5 +1,5 @@
 import React from 'react';
-function ProductBlock({ title, price, source }) {
+function ProductBlock({ title, price, image }) {
   const [productCount, setProductCount] = React.useState(0);
   const onClickCountAdd = () => {
     setProductCount(productCount + 1);
@@ -8,20 +8,20 @@ function ProductBlock({ title, price, source }) {
     <div className="pizza-block">
       <img
         className = "pizza-block__image"
-        src = {source}
+        src = {image}
         
         alt="Product"
       />
       <h4 className="pizza-block__title">{title}</h4>
       <div className="pizza-block__selector">
         <ul>
-          <li className="active">тонкое</li>
-          <li>традиционное</li>
+          <li className="active">ручная окраска</li>
+          <li>фотопечать</li>
         </ul>
         <ul>
-          <li className="active">26 см.</li>
-          <li>30 см.</li>
-          <li>40 см.</li>
+          <li className="active">26 мм</li>
+          <li>30 мм</li>
+          <li>40 мм</li>
         </ul>
       </div>
       <div className="pizza-block__bottom">

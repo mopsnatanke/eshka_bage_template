@@ -1,9 +1,14 @@
+
+import eshkaLogo from '../assets/img/eshkaLogo.png'
+
 function Header() {
   return (
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <img width="80" src="/img/eshka_logo_1.svg" alt="Eshka logo" />
+          <img width="80" src={eshkaLogo} alt="Eshka logo" />
+          
+      
           <div>
             <h1>React Eshka</h1>
             <p>самая вкусная кошка во вселенной</p>

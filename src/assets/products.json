@@ -1,0 +1,113 @@
+[
+    {
+      "id": 0,
+      "imageSrc": "https://sun9-1.userapi.com/impg/TuN-Qd5NoOV4arrHRQmxIBu7fXh4f9Vei5u_4g/hUJESWcHJ1w.jpg?size=2160x2160&quality=96&sign=3449b1330c98e2671a01cd2fd63c799f&type=album",
+      "title": "Кактус в горшочке",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 803,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageSrc": "https://sun9-13.userapi.com/impg/6KMQYf5MMsC5bWfBRFttpy_s4A2mt49d1FqA8w/73BL9b7koVg.jpg?size=2159x2160&quality=96&sign=b70c5698aed70d4ad7ffa3c993555c9b&type=album",
+      "title": "Котик",
+      "types": [0],
+      "sizes": [26, 40],
+      "price": 245,
+      "category": 0,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageSrc": "https://sun9-48.userapi.com/impg/FCwrdsIcr3etvl3fUc3s201wDVhafr3VwtcwIg/kudOvXL-yFk.jpg?size=2160x2160&quality=96&sign=236f1a99b9016a6c7f43d8d056404f7b&type=album",
+      "title": "Мопс",
+      "types": [0],
+      "sizes": [26, 40],
+      "price": 295,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageSrc": "https://sun9-31.userapi.com/impg/eK07Pvhz_uRXa5Bf-kr8R9-p2X2AYmgV44mxtA/aLXED9Qqh_k.jpg?size=2160x2160&quality=96&sign=e6bd13a48e371f30b91fbf10ca82eca2&type=album",
+      "title": "Серьги монстера",
+      "types": [1],
+      "sizes": [26, 30, 40],
+      "price": 275,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "imageSrc": "https://sun9-73.userapi.com/impg/7yxINKnA-FCiayMWyHtCNnRsYpuoZhX2qo6jew/YRu39Rzs2Q4.jpg?size=2160x2160&quality=96&sign=44699bf78b442d202358bc552515f4b3&type=album",
+      "title": "Демон огонёк",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 415,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "imageSrc": "https://sun9-14.userapi.com/impg/aEy6F-q7IZ5PHD6QstIwivgMb0FO3e8rhTzg8A/CIkAjbGLMKo.jpg?size=2160x2160&quality=96&sign=7c1d48d5e56e67d527382f8c56017b49&type=album",
+      "title": "Гранат",
+      "types": [0],
+      "sizes": [30, 40],
+      "price": 580,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "imageSrc": "https://sun9-75.userapi.com/impg/46l4g-VDYwkxlEu0MVoX-iox1dkagymwY-T8Ww/EQyrvzezvdM.jpg?size=2160x2160&quality=96&sign=6f22bbca28412c86633ffa09487876c3&type=album",
+      "title": "Ирис",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 675,
+      "category": 1,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageSrc": "https://sun9-62.userapi.com/impg/NK4S4jMy_XtJLje9T0sgy9CP9f1UxXFRLl3SRw/2D_GLq1JT_I.jpg?size=2159x2160&quality=96&sign=2192340028bac32b5e6f44affccc3db4&type=album",
+      "title": "Мак",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 450,
+      "category": 4,
+      "rating": 10
+    },
+    {
+      "id": 8,
+      "imageSrc": "https://sun9-9.userapi.com/impg/zFLd1N_-Veudp8VD1HZpqJMxaej9FAY3AOHTyQ/3FvhpvFToes.jpg?size=2160x2160&quality=96&sign=0f14c4458366c35e1dc3c8e8b385e4b3&type=album",
+      "title": "Радуга",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 395,
+      "category": 5,
+      "rating": 10
+    },
+    {
+      "id": 9,
+      "imageSrc": "https://sun9-1.userapi.com/impg/wII_UJAMXi1E3sZ7NM0VkSM7QUmmFmIvrfnjRQ/79e1-MnuUXc.jpg?size=2160x2160&quality=96&sign=5810939ca93f71f94554ae009e39c605&type=album",
+      "title": "Тукан",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 285,
+      "category": 5,
+      "rating": 7
+    },
+    {
+      "id": 9,
+      "imageSrc": "https://sun9-52.userapi.com/impg/v8QLwJjlhV5m3-ppNGvaUnW6IvWxBj1T9k64ow/OMS_wx4uk5k.jpg?size=2158x2159&quality=96&sign=8ff3acd4321a7b42fe2d3d30aba8e0ab&type=album",
+      "title": "Тупик",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 285,
+      "category": 5,
+      "rating": 7
+    }
+  ]
+  
