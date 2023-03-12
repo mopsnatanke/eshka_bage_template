@@ -7,7 +7,7 @@ import ProductBlock from './components/ProductBlock';
 
 import products from '../src/assets/products.json';
 
-console.log(products);
+
 
 function App() {
   return (
@@ -22,14 +22,8 @@ function App() {
           <h2 className="content__title">Все товары</h2>
           <div className="content__items">
             {products.map((obj) => (
-              <ProductBlock 
-                title={obj.title} 
-                price={obj.price} 
-                image={obj.imageSrc}
-                sizes={obj.sizes}
-                types={obj.types} />
+              <ProductBlock key={obj.id} {...obj} />
             ))}
-            
           </div>
         </div>
       </div>
